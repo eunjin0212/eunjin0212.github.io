@@ -26,7 +26,7 @@ Next js 이름도 미래지향적인 이 프레임워크는 홈페이지에서 �
 #### MPA
 
 Muilti Page Aplication은 말 그대로 멀티, 여러 페이지로 구성된 웹 애플리케이션이라는 얘기다. 사용자 이벤트가 발생하면 그에 맞는 페이지를 서버로부터 새로운 HTML을 받아와 전체 렌더링한다. SPA (Single Page Aplication)과 반대되는 방식이다. 프론트엔드의 라이브러리들은 보통 CSR, 즉 SPA 방식을 많이 사용한다. 요새 많이 쓰고 있는 라이브러리 거의 다가 SPA방식으로 동작을 한다.
-![](/images/posts/mpa-spa.jpeg)
+![](/assets/images/posts/mpa-spa.jpeg)
 
 #### SSR
 

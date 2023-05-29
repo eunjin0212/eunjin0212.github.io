@@ -192,7 +192,7 @@ $ sudo nginx -s reload
 | ^^      |   Black  {: color-style font-style}                          |||
 
 
-[cell image]: https://jekyllrb.com/images/posts/octojekyll.png "An exemplary image"
+[cell image]: https://jekyllrb.com/assets/images/posts/octojekyll.png "An exemplary image"
 
 | Heading            | Column 1      | Column 2                           |
 |--------------------|---------------|------------------------------------|
