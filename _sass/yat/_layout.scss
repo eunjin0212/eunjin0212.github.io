@@ -111,7 +111,8 @@ html {
 
     .site-favicon {
       display: inline-block;
-      height: calc($header-height / 3.9);
+      height: calc(#{$header-height} / 3.9);
+      width: calc(#{$header-height} / 3.9);
       margin-right: 5px;
       margin-bottom: 9px;
     }
