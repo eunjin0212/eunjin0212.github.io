@@ -18,4 +18,4 @@ https://github.com/jeffreytse/jekyll-theme-yat
 
 ## TODO
 - [ ] new badge 일주일 날짜 지나면 사라지기
-- [ ] 배너 교체
+- [X] 배너 교체
