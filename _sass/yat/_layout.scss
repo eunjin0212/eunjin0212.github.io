@@ -93,13 +93,17 @@ html {
 
 .site-brand {
   line-height: $header-height;
+  height: $header-height;
   margin-right: 50px;
+  display: inline-block;
 
   .site-brand-inner {
     @include relative-font-size(1.125);
     font-weight: $base-font-weight;
     letter-spacing: -1px;
     transition: 0.1s filter color;
+    display: inline-flex;
+    align-items: center;
 
     &, &:visited {
       color: $header-text-color;
@@ -107,8 +111,9 @@ html {
 
     .site-favicon {
       display: inline-block;
-      height: calc($header-height / 1.5);
+      height: calc($header-height / 3.9);
       margin-right: 5px;
+      margin-bottom: 9px;
     }
   }
 }
