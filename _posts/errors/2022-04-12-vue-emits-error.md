@@ -6,7 +6,7 @@ categories: Errors
 tags: [errors, Vue.js]
 ---
 
-# 에러 내용
+## 에러 내용
 
 > [Vue warn]: Extraneous non-emits event listeners (ok, hide) were passed to component but could not be automatically inherited because component renders fragment or text root nodes. If the listener is intended to be a component custom event listener only, declare it using the "emits" option.
 

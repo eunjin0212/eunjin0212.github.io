@@ -6,14 +6,14 @@ categories: Study
 tags: [design pattern]
 ---
 
-![](https://bradfrost.com/wp-content/uploads/2013/06/atomic-design.png)
+![atomic-design](https://bradfrost.com/wp-content/uploads/2013/06/atomic-design.png)
 
 이번에 회사 스터디 프로젝트를 하다가 알게된 Atomic pattern에 대해 공부할 겸, 정리할 겸 블로그에 간단히 적어보고자 한다.
 
 Atomic pattern 에서 우리가 아는 atomic의 뜻은 분자가 맞다. 왜 "분자" 패턴인지는 Atomic pattern의 애플리케이션 구조화를 보면 바로 알 수 있다.
 Atomic pattern은 다섯개의 계층으로 나눠져 있다.
 
-![](http://bradfrost.com/wp-content/uploads/2015/12/atomic-gif-3.gif)
+![Atomic pattern](http://bradfrost.com/wp-content/uploads/2015/12/atomic-gif-3.gif)
 
 ### 가장 작은 원자 (Atoms)
 
@@ -35,17 +35,12 @@ Atomic pattern은 다섯개의 계층으로 나눠져 있다.
 
 사용자게에 최종적으로 보여지는 마지막 단계이다. 최종최최종진짜최종수정본.hwp 같은 느낌이랄까? 애플리케이션의 탐색 부분이다. 실제 데이터를 넣어 디자인 시스템에 활기를 준다. 또한 디자인 시스템을 테스트 할 수도 있고 잘 짜여졌는지 분석도 할 수 있다.
 
-<br />
-<br />
-<br />
-
 이렇게 각각의 모여있는 계층이 상호작용을 하는 모델을 Atomic Pattern 이라고 한다. 더 간단히 요약하자면
 Atoms은 더 이상 세분화할 수 없는 UI 요소이며 인터페이스의 기본 빌딩 블록 역할을 한다.
 Molecules는 비교적 단순한 UI 구성 요소를 형성하는 원자의 집합이다.
 Organism는 인터페이스의 개별 섹션을 형성하는 비교적 복잡한 구성 요소다.
 Templates은 레이아웃 내에 구성 요소를 배치하고 디자인의 기본 콘텐츠 구조를 보여준다.
 Pages는 실제 콘텐츠를 템플릿에 적용하고 변화를 명확하게 표현하여 최종 UI를 보여주고 디자인 시스템의 탄력성을 테스트한다.
-<br />
 
 ### Atomic Design Pattern 장점
 
@@ -59,10 +54,10 @@ Pages는 실제 콘텐츠를 템플릿에 적용하고 변화를 명확하게 �
 
 [리액트 공식문서](https://ko.reactjs.org/docs/faq-structure.html#avoid-too-much-nesting) 단일 프로젝트에서 많은 폴더 중첩은 피하는게 좋다고 한다.
 
-## 참고
+## reference
 
-- <https://ui.toast.com/weekly-pick/ko_20200213>
-- <https://atomicdesign.bradfrost.com/chapter-2/>
-- <https://velog.io/@seob/Atomic-Design-Methodology-22>
-- <https://github.com/danilowoz/react-atomic-design>
-- <https://kciter.so/posts/effective-atomic-design>
+- [리액트 어플리케이션 구조 - 아토믹 디자인](https://ui.toast.com/weekly-pick/ko_20200213)
+- [Atomic Design Methodology(en)](https://atomicdesign.bradfrost.com/chapter-2/)
+- [Atomic Design Methodology(ko)](https://velog.io/@seob/Atomic-Design-Methodology-22)
+- [react-atomic-design](https://github.com/danilowoz/react-atomic-design)
+- [Effective Atomic Design](https://kciter.so/posts/effective-atomic-design)
