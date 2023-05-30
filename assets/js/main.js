@@ -55,4 +55,3 @@ function smoothScrollTo(y, time) {
     })();
   }
 }
-

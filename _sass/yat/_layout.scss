@@ -294,7 +294,7 @@ html {
       display: inline-flex;
       align-items: center;
 
-      &:after {
+      &.new-article:after {
         content: "NEW";
         margin-left: 8px;
         padding: 0px 3px;
@@ -305,7 +305,7 @@ html {
         border-radius: 2px;
       }
 
-      &:visited:after {
+      &.new-article:visited:after {
         background-color: #fff;
       }
     }
@@ -481,7 +481,7 @@ html {
           color: #333;
         }
 
-        &:after {
+        &.new-article:after {
           content: 'NEW';
           position: absolute;
           margin-left: 8px;
@@ -494,7 +494,7 @@ html {
           border-radius: 2px;
         }
 
-        &:visited:after {
+        &.new-article:visited:after {
           background-color: #fff;
         }
       }
@@ -757,7 +757,7 @@ html {
       color: #000;
     }
 
-    &:after {
+    &.new-article:after {
       content: 'NEW';
       position: absolute;
       margin-left: 8px;
@@ -770,7 +770,7 @@ html {
       border-radius: 2px;
     }
 
-    &:visited:after {
+    &.new-article:visited:after {
       background-color: #fff;
     }
   }

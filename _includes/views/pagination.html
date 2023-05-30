@@ -21,7 +21,7 @@
       {%- assign post_url = post.url | relative_url -%}
 
       <h2 class="post-title">
-        <a class="post-link" href="{{ post_url }}">
+        <a class="post-link {{ post.date }}" href="{{ post_url }}">
           {{ post.title | escape }}
         </a>
       </h2>
@@ -49,3 +49,20 @@
   {%- endif -%}
 </div>
 {%- endif -%}
+<script lang="javascript">
+  function checkNewArticle() {
+    const today = new Date();
+    const year = today.getFullYear(); // 년
+    const month = today.getMonth();   // 월
+    const day = today.getDate();
+    const defaultDate = new Date(year, month, day - 7);
+    const postLinkEl = document.querySelectorAll('.post-link')
+    postLinkEl.forEach((el) => {
+      const getDate = new Date(el.classList[1])
+      if(getDate >= defaultDate) {
+        el.className += ' new-article'
+      }
+    })
+  }
+  checkNewArticle()
+</script>
