@@ -28,3 +28,4 @@
 - [ ] 카테고리 그리드 형식으로 (web, 모바일은 그대로 확인 필수)
 - [ ] Private 카테고리 만들기
 - [X] 배너 교체
+- [ ] 폰트 지연시간 없애기 [참고](https://blog.banksalad.com/tech/font-preload-on-safari/)

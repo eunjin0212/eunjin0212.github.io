@@ -35,4 +35,5 @@ $brand-color: map-get($brand-colors, "orangered");
 
 $content-width: {{ site.content_width | default: '920px' }};
 
+@import url('https://webfontworld.github.io/pretendard/Pretendard.css');
 @import "yat";
