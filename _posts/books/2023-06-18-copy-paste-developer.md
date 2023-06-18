@@ -10,7 +10,7 @@ tags: [book]
 | :-------------: | :--------: | :------: |
 | 복붙 개발자의 벼락 성공기 | 2023/06/18 | 한빛미디어 |
 
-![복붙 개발자의 벼락 성공기](/assets/images/posts/copy_paste_developer.heic)
+![복붙 개발자의 벼락 성공기](/assets/images/posts/copy_paste_developer.png)
 
 ## 서평
 
