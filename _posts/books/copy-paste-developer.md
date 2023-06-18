@@ -8,9 +8,9 @@ tags: [book, FastAPI]
 
 |      제목       |   독서일   |  출판사  |
 | :-------------: | :--------: | :------: |
-| FastAPI를 사용한 파이썬 웹 개발 | 2023/04/20 | 한빛미디어 |
+| 복붙 개발자의 벼락 성공기 | 2023/06/18 | 한빛미디어 |
 
-![FastAPI를 사용한 파이썬 웹 개발](/assets/images/posts/copy_paste_developer.heic)
+![복붙 개발자의 벼락 성공기](/assets/images/posts/copy_paste_developer.heic)
 
 ## 서평
 
