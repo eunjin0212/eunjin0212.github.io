@@ -3,7 +3,7 @@ layout: post
 title: 📚 복붙 개발자의 벼락 성공기
 subtitle: 복붙 개발자의 벼락 성공기를 읽고
 categories: Books
-tags: [book, FastAPI]
+tags: [book]
 ---
 
 |      제목       |   독서일   |  출판사  |
