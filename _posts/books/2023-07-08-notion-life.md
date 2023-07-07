@@ -10,7 +10,7 @@ tags: [book]
 | :-------------: | :--------: | :------: |
 | 노션 라이프 | 2023/07/08 | 한빛미디어 |
 
-![복붙 개발자의 벼락 성공기](/assets/images/posts/notion_life.jpeg)
+![노션라이프](/assets/images/posts/notion_life.jpeg)
 
 ## 서평
 
