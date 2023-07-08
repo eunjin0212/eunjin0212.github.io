@@ -1,0 +1,2 @@
+Sitemap: https://eunjin0212.github.io/sitemap.xml
+Allow: /ads.txt
