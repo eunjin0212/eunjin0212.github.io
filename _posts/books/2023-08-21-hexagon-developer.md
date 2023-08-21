@@ -10,7 +10,7 @@ tags: [book]
 | :-------------: | :--------: | :------: |
 | 육각형 개발자 | 2023/07/07 | 한빛미디어 |
 
-![육각형 개발자](/assets/images/posts/hexagon_developer.jpeg)
+![육각형 개발자](/assets/images/posts/hexagon_developer.png)
 
 ## 서평
 
