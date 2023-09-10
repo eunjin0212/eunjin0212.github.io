@@ -2,7 +2,7 @@
 layout: post
 title: 너디너리 컨퍼런스 후기
 subtitle: 나의 첫 컨퍼런스
-categories: 컨퍼런스
+categories: conference
 tags: [너디너리, nerdinary, IT 컨퍼런스]
 ---
 
