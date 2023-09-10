@@ -5,11 +5,8 @@ subtitle: Error change Hexo logo
 categories: Errors
 tags: [errors, hexo]
 ---
-와 진짜 역대로 어렵다
 
-집에서 하니까 왜 아무것도 안나오는걸까
-
-```
+```error
 No layout: index.html
 ```
 
