@@ -16,15 +16,15 @@ tags: [execution context]
 
 ### VariableEnvironment
 
-VariableEnvironment는 처음 컨텍스트를 만들때 정보들을 스냅샷으로 찍어 보관한다. EnvironmentRecode와 OuterEnvironmentReference 두가지 정보가 저장이 된다. EnvironmentRecode에는 식별자들의 정보가 담기는데 VariableEnvironment는 식별자들의 정보(EnvironmentRecode)와 상위 LexicalEnvironment를 참조하는 OuterEnvironmentReference가 초기값과 같다. (변하지 않는다. 스크린 샷 정도로 이해하는 중이다.)
+VariableEnvironment는 처음 컨텍스트를 만들때 정보들을 스냅샷으로 찍어 보관한다. EnvironmentRecord와 OuterEnvironmentReference 두가지 정보가 저장이 된다. EnvironmentRecord에는 식별자들의 정보가 담기는데 VariableEnvironment는 식별자들의 정보(EnvironmentRecord)와 상위 LexicalEnvironment를 참조하는 OuterEnvironmentReference가 초기값과 같다. (변하지 않는다. 스크린 샷 정도로 이해하는 중이다.)
 
 ### LexicalEnvironment
 
-LexicalEnvironment는 VariableEnvironment를 처음에 복사해서 만든다. 그래서 초기 실핼시에는 둘이 같지만 후에 값을 변경했을 경우 LexicalEnvironment는 안의 EnvironmentRecode와 OuterEnvironmentReference 내용이 변한다. 식별자와 스코프를 관리한다.
+LexicalEnvironment는 VariableEnvironment를 처음에 복사해서 만든다. 그래서 초기 실핼시에는 둘이 같지만 후에 값을 변경했을 경우 LexicalEnvironment는 안의 EnvironmentRecord와 OuterEnvironmentReference 내용이 변한다. 식별자와 스코프를 관리한다.
 
-#### EnvironmentRecode
+#### EnvironmentRecord
 
-LexicalEnvironment 안에 들어있는 저장 영역이다. 현재 실행컨텍스트의 식별자 정보가 순서대로 저장 된다. 이때 **식별자(매개변수, 변수, 함수선언문)**만 저장한다. 이게 무슨 소리냐 식별자에 할당되는 값은 저장하지 않고 식별자, 말 그대로 할당부 만 신경쓴다. 어떤 값이 할당되는지는 상관하지 않고 식별자를 최상단으로 끌어올려 순서대로 저장한다. EnvironmentRecode의 수집 과정을 추상화 한 개념을 **호이스팅** 이라고 한다.
+LexicalEnvironment 안에 들어있는 저장 영역이다. 현재 실행컨텍스트의 식별자 정보가 순서대로 저장 된다. 이때 **식별자(매개변수, 변수, 함수선언문)**만 저장한다. 이게 무슨 소리냐 식별자에 할당되는 값은 저장하지 않고 식별자, 말 그대로 할당부 만 신경쓴다. 어떤 값이 할당되는지는 상관하지 않고 식별자를 최상단으로 끌어올려 순서대로 저장한다. EnvironmentRecord의 수집 과정을 추상화 한 개념을 **호이스팅** 이라고 한다.
 
 #### OuterEnvironmentReference
 
