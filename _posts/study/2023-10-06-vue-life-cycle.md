@@ -97,9 +97,9 @@ Vue2의 옵션 API에 있던 `beforeCreate`, `created` 두 가지 단계가 합�
 이 과정은 Vue가 컴포넌트를 마운트 시킬 때 일어나는 과정이다.
 ![Vue render pipeline](https://ko.vuejs.org/assets/render-pipeline.879c8dc5.png)
 
-- template을 렌더함수(Virtual DOM tree를 반환하는 함수)로 컴파일 한다.
-- 마운트에서 런타임 렌더러는 렌더함수를 호출하여 Virtual DOM tree를 탐색하고 실제 DOM을 생성한다. 이때 반응성을 업데이트 하고, 추척하는 사이드이펙트가 실행된다.
-- 반응형 데이터가 변경되면 Vue는 다시 렌더함수를 호출해 새로운 Virtual DOM tree를 생성한다. 그리고 이전 Virtual DOM tree와 비교하여 변경점만 DOM에 업데이트 한다.
+1. template을 렌더함수(Virtual DOM tree를 반환하는 함수)로 컴파일 한다.
+2. 마운트에서 런타임 렌더러는 렌더함수를 호출하여 Virtual DOM tree를 탐색하고 실제 DOM을 생성한다. 이때 반응성을 업데이트 하고, 추척하는 사이드이펙트가 실행된다.
+3. 반응형 데이터가 변경되면 Vue는 다시 렌더함수를 호출해 새로운 Virtual DOM tree를 생성한다. 그리고 이전 Virtual DOM tree와 비교하여 변경점만 DOM에 업데이트 한다.
 
 #### template이냐, 렌더 함수 h()냐
 
