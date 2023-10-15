@@ -30,7 +30,7 @@ LexicalEnvironment 안에 들어있는 저장 영역이다. 현재 실행컨텍�
 
 OuterEnvironmentReference는 상위 렉시컬 환경을 참조한다 얘로 인해서 단방향 링크드 리스트인 스코프 체인이 구현된다. 얘는 상위의 LexicalEnvironment를 참조하는건데 이게 바로 내부 함수에서 부모의 변수를 불러올 수 있는 이유이다. 자식 inner 함수에서 부모 outer 에 있는 a 라는 변수를 찾는다고 가정해보자 inner 안에서 먼저 a 를 LexicalEnvironment 에서 찾아보지만 찾을 수 없다 그럼 상위 정보를 갖고 있는 OuterEnvironmentReference를 통해서 상위에서 a 를 찾는다. 변수의 유효 범위를 스코프 라고 하는데 이 스코프는 스코프 체인이라는 검색 방법으로 유효 범위를 검색한다. (예시가 바로 스코프 체인을 하는 과정이다.) 스코프 체인은 안에서 밖으로 검색을 한다.
 
-```javaScript
+```javascript
 function outer() {
  var a = 1;
  function inner() {
