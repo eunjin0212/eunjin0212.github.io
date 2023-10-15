@@ -38,3 +38,7 @@ function outer() {
  }
 }
 ```
+
+## reference
+
+- 코어 자바스크립트
