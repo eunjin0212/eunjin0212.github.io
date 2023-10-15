@@ -6,10 +6,10 @@ categories: Study
 tags: [javascript, synchronouse, asynchronouse]
 ---
 
-> 자바스크림트 엔진은 각각 한 개씩 호출 스택이 쌓이는 **콜스택** 과 메모리를 할당하는 **메모리 힙** 을 갖는다. 이유는 **싱글스레드** 방식으로 동작하기 때문이다. 이 의미는 동시에 두 개 이상의 함수를 동시에 실행 할 수 없다는 것이다. 그래서 처리 시간이 걸리는 task를 실행 할 경우 **블로킹 (작업 중단)** 이 발생한다.
+> 자바스크림트 엔진은 각각 한 개씩 호출 스택이 쌓이는 **콜스택** 과 메모리를 할당하는 **메모리 힙** 을 갖는다. 하나씩 있는 이유는 **싱글스레드** 방식으로 동작하기 때문이다. 이 의미는 두 개 이상의 함수를 동시에 실행 할 수 없다는 것이다. 그래서 처리 시간이 걸리는 task를 실행 할 경우 **블로킹 (작업 중단)** 이 발생한다.
 
 자바스크립트의 런타임에는 (특정 언어를 실행할 수 있는 환경) 커널(node js는 리버브, 브라우저는 Wep API)과 이벤트 루프, 콜백 큐가 있다.
-![javascript_runtime](https://beomy.github.io/assets/assets/images/posts/posts/javascript/javascript_runtime.png)
+![javascript_runtime](/assets/images/posts/javascript_runtime.png)
 Event loop는 처리할 task가 없으면 잠자고 있다가 처리할 task가 생기면 이를 콜스택에 올려주는 역할을 한다. 콜스택이 비어있는지 계속 확인하고 다음 task를 가지고 온다.
 
 ## 비동기
