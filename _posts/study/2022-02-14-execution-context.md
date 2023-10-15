@@ -14,6 +14,8 @@ tags: [execution context]
 실행 컨텍스트의 종류에는 전역, 함수 실행, eval 실행, 모듈 실행 컨텍스트가 있다. 이 책에서는 전역 컨텍스트와 함수 실행 컨텍스트가 나와있다.
 환경 정보에는 VariableEnvironment, LexicalEnvironment, ThisBinding 세가지 정보가 담긴다.
 
+![execution context](/assets/images/posts/execution_context.png)
+
 ### VariableEnvironment
 
 VariableEnvironment는 처음 컨텍스트를 만들때 정보들을 스냅샷으로 찍어 보관한다. EnvironmentRecord와 OuterEnvironmentReference 두가지 정보가 저장이 된다. EnvironmentRecord에는 식별자들의 정보가 담기는데 VariableEnvironment는 식별자들의 정보(EnvironmentRecord)와 상위 LexicalEnvironment를 참조하는 OuterEnvironmentReference가 초기값과 같다. (변하지 않는다. 스크린 샷 정도로 이해하는 중이다.)
