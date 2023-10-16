@@ -8,7 +8,7 @@ tags: [design pattern]
 
 > 이번에 회사 스터디 프로젝트를 하다가 알게된 Atomic pattern에 대해 공부할 겸, 정리할 겸 블로그에 간단히 적어보고자 한다.
 
-Atomic pattern 에서 우리가 아는 atomic의 뜻은 분자가 맞다. 왜 "분자" 패턴인지는 Atomic pattern의 애플리케이션 구조화를 보면 바로 알 수 있다.
+Atomic pattern 에서 우리가 아는 atomic의 뜻은 원자가 맞다. 왜 "원자" 패턴인지는 Atomic pattern의 애플리케이션 구조화를 보면 바로 알 수 있다.
 
 ![atomic-design](https://bradfrost.com/wp-content/uploads/2013/06/atomic-design.png)
 
