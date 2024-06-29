@@ -6,7 +6,7 @@ categories: 회고
 tags: [toss, frontend]
 ---
 
-토스 Frontend Accelerator 1기 기술 테스트 후기
+## 토스 Frontend Accelerator 1기 기술 테스트 후기
 
 오늘 본 따끈따끈한 기술 테스트 후기를 짧게 말해볼까 한다.
 
