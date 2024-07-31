@@ -2,13 +2,13 @@
 layout: post
 title: 신규 입사자를 위한 좋은 온보딩 만들기
 subtitle: 우당탕탕 어느 중소기업의 개발팀 온보딩 만들기
-categories: Etc.
+categories: Contents
 tags: [onboarding, frontend]
 ---
 
 > 💡 이번에 사내 리더 스터디에서 온보딩을 주제로한 발표를 하게 되었다. 하면서 곰곰히 생각해보았다. 나는 첫 입사 때 어땠는가? 어떤 어려움이 가장 컸는가?
 
-![onboarding]('/assets/images/posts/onboarding.png')
+![onboarding](/assets/images/posts/onboarding.png)
 
 ## 우리 팀 목적에 맞는 온보딩 셋업 `OT와 온보딩 그 사이 어딘가`
 
