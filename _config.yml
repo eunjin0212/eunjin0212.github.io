@@ -208,7 +208,7 @@ utterances:
 markdown: kramdown
 kmarkdown:
   input: GFM
-
+remote_theme: "jeffreytse/jekyll-theme-yat"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
